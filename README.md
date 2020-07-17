@@ -78,9 +78,9 @@ Root Device Type: ebs Virtualization type: hvm
 - pdftools problem ubuntu 16? no libcurl4-openssl-dev? `sudo apt-get install libcurl4-openssl-dev`
 - no poppler-cpp? `sudo add-apt-repository -y ppa:cran/poppler`
 
-		`sudo apt-get update`
+	`sudo apt-get update`
 		
-		`sudo apt-get install -y libpoppler-cpp-dev
+	`sudo apt-get install -y libpoppler-cpp-dev`
 		
 - RPostgres problem? no libpq? `sudo apt-get install libpq-dev`
 
