@@ -26,7 +26,9 @@ Root Device Type: ebs Virtualization type: hvm
 #### Installing r
 
 `sudo apt-get update`
+
 `sudo apt-get install r-base`
+
 `sudo apt-get install r-base-dev`
 
 #### Installing shiny package
@@ -50,15 +52,20 @@ Root Device Type: ebs Virtualization type: hvm
 #### Shiny server install ([link](https://rstudio.com/products/shiny/download-server/ubuntu/))
 
 `sudo apt-get install gdebi-core`
+
 `wget https://download3.rstudio.org/ubuntu-14.04/x86_64/shiny-server-1.5.14.948-amd64.deb`
+
 `sudo gdebi shiny-server-1.5.14.948-amd64.deb`
 
 #### Permissions
 
 `sudo chmod 777 /srv/shiny-server`
+
 <!--#sudo chmod -R 777 /srv-->
 `sudo mkdir /srv/shiny-server/myapp`
+
 `sudo chmod 777 /etc/shiny-server`
+
 <!--#sudo chmod -R 777 /etc-->
 <!--	#shiny-server.conf
 		#location /myapp {
@@ -70,8 +77,11 @@ Root Device Type: ebs Virtualization type: hvm
 - shinymanager problem ubnutu 16? no openssl? sudo apt-get install libssl-dev
 - pdftools problem ubuntu 16? no libcurl4-openssl-dev? `sudo apt-get install libcurl4-openssl-dev`
 - no poppler-cpp? `sudo add-apt-repository -y ppa:cran/poppler`
+
 		`sudo apt-get update`
+		
 		`sudo apt-get install -y libpoppler-cpp-dev
+		
 - RPostgres problem? no libpq? `sudo apt-get install libpq-dev`
 
 ### Apache2 Web Server ([article](https://www.r-bloggers.com/shiny-https-securing-shiny-open-source-with-ssl/))
