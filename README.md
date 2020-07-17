@@ -23,6 +23,8 @@ Root Device Type: ebs Virtualization type: hvm
 - "Load" .pem and "Save private key" as .ppk using PuTTYgen
 - Elastic IP
 
+#### sudo -i
+
 #### Installing r
 
 `sudo apt-get update`
