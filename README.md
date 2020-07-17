@@ -73,7 +73,7 @@ Root Device Type: ebs Virtualization type: hvm
 		#location /myapp {
 		#site_dir /srv/shiny-server/myapp;-->
 
-#### Install packages
+#### Installing packages
 
 - dbplyr problem? update tibble
 - shinymanager problem ubnutu 16? no openssl? sudo apt-get install libssl-dev
@@ -85,6 +85,7 @@ Root Device Type: ebs Virtualization type: hvm
 	`sudo apt-get install -y libpoppler-cpp-dev`
 		
 - RPostgres problem? no libpq? `sudo apt-get install libpq-dev`
+- readr problem? `sudo apt-get install r-cran-readr`
 
 ### Apache2 Web Server ([article](https://www.r-bloggers.com/shiny-https-securing-shiny-open-source-with-ssl/))
 
