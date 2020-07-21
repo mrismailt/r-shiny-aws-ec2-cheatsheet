@@ -61,6 +61,9 @@ Root Device Type: ebs Virtualization type: hvm
 
 #### Permissions
 
+DO NOT CHANGE PERMISSIONS RECUSIVELY
+DO NOT CHANGE PERMISSIONS OF THE ROOT FOLDER
+
 `sudo chmod 777 /srv/shiny-server`
 
 <!--#sudo chmod -R 777 /srv-->
