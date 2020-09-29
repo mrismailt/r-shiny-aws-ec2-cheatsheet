@@ -9,3 +9,5 @@ tinytex:::is_tinytex()
 docker build -t my-shiny-app .
 
 docker run --rm -p 3838:3838 my-shiny-app
+
+https://docs.aws.amazon.com/AmazonECS/latest/developerguide/docker-basics.html
