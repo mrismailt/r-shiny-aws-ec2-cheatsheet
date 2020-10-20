@@ -1,9 +1,31 @@
+### Launching Instance
+
+Amazon Linux 2 AMI (HVM), SSD Volume Type
+(User: ec2-user)
+
+### Generate Private Key and Allocate Elastic IP
+
+### Create Security Rules
+
+SSH - My IP
+HTTP - Anywhere
+
+### [Install Docker](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/docker-basics.html)
+
+
+
+====
+
 sudo apt-get update
+
 sudo apt-get install docker
+
 snap install docker
+
 chmod -R 666 /home/nroach44
 
 tinytex::install_tinytex()
+
 tinytex:::is_tinytex()
 
 docker build -t my-shiny-app .
