@@ -13,11 +13,8 @@ HTTP - Anywhere
 ### [Install Docker](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/docker-basics.html)
 
 `sudo yum update -y`
-
 `sudo amazon-linux-extras install docker`
-
 `sudo service docker start`
-
 `sudo usermod -a -G docker ec2-user`
 
 Log out and back in
@@ -26,18 +23,12 @@ Log out and back in
 
 ### Git
 
-#### Install
-
 `sudo yum install git -y`
-
-#### Clone Repo
-
 `git clone <git-repo> App`
 
 #### Update Repo
 
 `cd App`
-
 `git pull`
 
 #### Remove Repo
@@ -51,13 +42,11 @@ Log out and back in
 [Dockerfile](https://github.com/mrismailt/r-shiny-aws-ec2-docker-cheatsheet/blob/master/Dockerfile)
 
 `docker build -t my-shiny-app App`
-
 `docker images`
 
 #### Run Image
 
 `docker run --rm -ditp 80:3838 my-shiny-app`
-
 `docker ps`
 
 
