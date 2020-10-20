@@ -48,6 +48,8 @@ Log out and back in
 
 #### Build Image
 
+[Dockerfile](https://github.com/mrismailt/r-shiny-aws-ec2-docker-cheatsheet/blob/master/Dockerfile)
+
 `docker build -t my-shiny-app App`
 
 `docker images`
