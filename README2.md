@@ -50,21 +50,17 @@ Log out and back in
 
 `docker build -t my-shiny-app App`
 
+`docker images`
+
 #### Run Image
 
-docker run --rm -ditp 80:3838 my-shiny-app
+`docker run --rm -ditp 80:3838 my-shiny-app`
+
+`docker ps`
 
 
 
 ====
-
-sudo apt-get update
-
-sudo apt-get install docker
-
-snap install docker
-
-chmod -R 666 /home/nroach44
 
 tinytex::install_tinytex()
 
