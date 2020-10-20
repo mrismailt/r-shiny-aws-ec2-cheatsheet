@@ -24,6 +24,15 @@ Log out and back in
 
 `docker info`
 
+### Git
+
+`sudo yum install git -y`
+
+`git clone`
+
+`rm -rf`
+
+
 ====
 
 sudo apt-get update
