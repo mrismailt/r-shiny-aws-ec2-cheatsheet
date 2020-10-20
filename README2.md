@@ -26,11 +26,34 @@ Log out and back in
 
 ### Git
 
+#### Install
+
 `sudo yum install git -y`
 
-`git clone`
+#### Clone Repo
+
+`git clone <git-repo> App`
+
+#### Update Repo
+
+`cd App`
+
+`git pull`
+
+#### Remove Repo
 
 `rm -rf`
+
+### Docker
+
+#### Build Image
+
+`docker build -t my-shiny-app App`
+
+#### Run Image
+
+docker run --rm -ditp 80:3838 my-shiny-app
+
 
 
 ====
@@ -46,14 +69,6 @@ chmod -R 666 /home/nroach44
 tinytex::install_tinytex()
 
 tinytex:::is_tinytex()
-
-docker build -t my-shiny-app .
-
-docker run --rm -ditp 3838:3838 my-shiny-app
-
-https://docs.aws.amazon.com/AmazonECS/latest/developerguide/docker-basics.html
-
-
 
 https://stackoverflow.com/questions/28212380/why-docker-container-exits-immediately
 
