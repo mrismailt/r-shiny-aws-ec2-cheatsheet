@@ -55,7 +55,7 @@ Log out and back in
 
 tinytex::install_tinytex()
 
-tinytex:::is_tinytex()
+tinytex::is_tinytex()
 
 https://stackoverflow.com/questions/28212380/why-docker-container-exits-immediately
 
