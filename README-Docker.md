@@ -28,7 +28,7 @@ Log out and back in
 
 #### Update Repo
 
-`cd App`
+`cd App`  
 `git pull`
 
 #### Remove Repo
