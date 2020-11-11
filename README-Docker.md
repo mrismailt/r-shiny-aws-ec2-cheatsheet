@@ -23,7 +23,7 @@ Log out and back in
 
 ### Git
 
-`sudo yum install git -y`
+`sudo yum install git -y`  
 `git clone <git-repo> App`
 
 #### Update Repo
@@ -41,12 +41,12 @@ Log out and back in
 
 [Dockerfile](https://github.com/mrismailt/r-shiny-aws-ec2-docker-cheatsheet/blob/master/Dockerfile)
 
-`docker build -t my-shiny-app App`
+`docker build -t my-shiny-app App`  
 `docker images`
 
 #### Run Image
 
-`docker run --rm -ditp 80:3838 my-shiny-app`
+`docker run --rm -ditp 80:3838 my-shiny-app`  
 `docker ps`
 
 
