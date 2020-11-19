@@ -71,3 +71,7 @@ TIP: For exiting without stopping the container type: ^P^Q
 docker logs <container_id>
 For error logs
 https://sematext.com/blog/docker-logs-location/#:~:text=First%20of%20all%2C%20to%20list,use%20the%20docker%20ps%20command.&text=Then%2C%20with%20the%20docker%20logs,logs%20for%20a%20particular%20container.&text=Most%20of%20the%20time%20you,the%20last%20few%20logs%20lines.
+
+
+docker system prune, docker system prune -a # Clean up system
+docker rmi <image> # Remove image
