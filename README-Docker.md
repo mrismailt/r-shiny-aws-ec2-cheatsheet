@@ -49,7 +49,9 @@ Log out and back in
 `docker run --rm -ditp 80:3838 my-shiny-app`  
 `docker ps`
 
+#### Piping
 
+`RUN R -e "paste(.libPaths()[1], 'shiny', sep = '/')" 2> rm -r`
 
 ====
 
