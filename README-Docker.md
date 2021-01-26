@@ -76,6 +76,10 @@ Log out and back in
 ##### [Disabling cache for specific RUN commands](https://stackoverflow.com/questions/35134713/disable-cache-for-specific-run-commands)
 
 Use `ADD "https://www.random.org/cgi-bin/randbyte?nbytes=10&format=h" skipcache` before the RUN line you want to always run. This works because ADD will always fetch the file/URL and the above URL generates random data on each request, Docker then compares the result to see if it can use the cache.
+
+##### Installing R packages from github in a dockerfile
+
+`RUN R -e "devtools::install_github(repo = '<username>/<repo>', auth_token = '<personalaccesstoken>', upgrade = 'never')"`
   
 ====
 
