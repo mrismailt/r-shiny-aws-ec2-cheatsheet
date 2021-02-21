@@ -46,7 +46,7 @@ Log out and back in
 
 #### Run Image
 
-`docker run --rm -ditp 80:3838 my-shiny-app`  
+`docker run --rm --name myShinyApp --ditp 80:3838 my-shiny-app`  
 `docker ps`
 
 #### Docker Misc.
