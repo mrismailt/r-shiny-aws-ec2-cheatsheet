@@ -80,6 +80,10 @@ Use `ADD "https://www.random.org/cgi-bin/randbyte?nbytes=10&format=h" skipcache`
 ##### Installing R packages from github in a dockerfile
 
 `RUN R -e "devtools::install_github(repo = '<username>/<repo>', auth_token = '<personalaccesstoken>', upgrade = 'never')"`
+
+##### [SSH Into Docker Container from Windows](https://phoenixnap.com/kb/how-to-ssh-into-docker-container)
+
+`sudo docker exec -it <CONTAINER-NAME> /bin/bash`
   
 ====
 
