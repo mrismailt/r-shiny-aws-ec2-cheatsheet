@@ -88,6 +88,10 @@ Use `ADD "https://www.random.org/cgi-bin/randbyte?nbytes=10&format=h" skipcache`
 ##### Run Container w/o Ports
 
 `docker run --name nginx-test -d nginx`
+
+`docker run --rm --name ubuntu -dit ubuntu`
+
+`docker run --rm --name ubuntu -it ubuntu`
   
 ====
 
