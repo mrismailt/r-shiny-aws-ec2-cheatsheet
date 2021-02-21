@@ -84,6 +84,10 @@ Use `ADD "https://www.random.org/cgi-bin/randbyte?nbytes=10&format=h" skipcache`
 ##### [SSH Into Docker Container from Windows](https://phoenixnap.com/kb/how-to-ssh-into-docker-container)
 
 `sudo docker exec -it <CONTAINER-NAME> /bin/bash`
+
+##### Run Container w/o Ports
+
+`docker run --name nginx-test -d nginx`
   
 ====
 
