@@ -13,6 +13,8 @@ remDr <- remoteDriver(
 )
 remDr$open()
 
+-v /dev/shm:/dev/shm
+
 [How to connect to rselenium](https://docs.ropensci.org/RSelenium/articles/docker.html)
 
 https://www.tightvnc.com/download.php
