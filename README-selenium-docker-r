@@ -16,3 +16,5 @@ remDr$open()
 [How to connect to rselenium](https://docs.ropensci.org/RSelenium/articles/docker.html)
 
 https://www.tightvnc.com/download.php
+
+https://cran.r-project.org/web/packages/RSelenium/vignettes/basics.html
