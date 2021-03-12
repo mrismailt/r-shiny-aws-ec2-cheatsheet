@@ -1,0 +1,6 @@
+Modify Records
+
+Name, Type, TTL, Target
+ , A, 3600, IP
+WWW, A, 3600, IP
+WWW, CNAME, 3600, DNS
