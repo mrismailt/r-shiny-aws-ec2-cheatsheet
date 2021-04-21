@@ -20,3 +20,18 @@ remDr$open()
 https://www.tightvnc.com/download.php
 
 https://cran.r-project.org/web/packages/RSelenium/vignettes/basics.html
+
+
+https://stackoverflow.com/questions/29861117/scraping-a-dynamic-ecommerce-page-with-infinite-scroll
+#scroll down 5 times, waiting for the page to load at each time
+for(i in 1:5){      
+remDr$executeScript(paste("scroll(0,",i*10000,");"))
+Sys.sleep(3)    
+}
+
+#get the page html
+page_source<-remDr$getPageSource()
+
+#parse it
+html(page_source[[1]]) %>% html_nodes(".product-itm-price-new") %>%
+  html_text()
