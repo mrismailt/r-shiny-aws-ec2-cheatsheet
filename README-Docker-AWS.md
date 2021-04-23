@@ -42,3 +42,7 @@ RUN mkdir -p /code
 COPY extract_prices.R /code()
 
 CMD Rscript /code/extract_prices.R
+
+# Switch profile
+
+setx AWS_PROFILE iamadmon-adfadf-adfadf
