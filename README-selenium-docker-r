@@ -35,3 +35,8 @@ page_source<-remDr$getPageSource()
 #parse it
 html(page_source[[1]]) %>% html_nodes(".product-itm-price-new") %>%
   html_text()
+  
+# Docker Browser Images To Use
+
+- selenium/standalone-chrome-debug,  Image ID: 6a3a9ed31627
+- selenium/standalone-firefox-debug, Image ID: f5f64b86c7d6
