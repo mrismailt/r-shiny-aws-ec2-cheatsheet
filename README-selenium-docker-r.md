@@ -1,4 +1,4 @@
-[How to set up rselenium for R](https://stackoverflow.com/questions/42468831/how-to-set-up-rselenium-for-r)
+# [How to set up rselenium for R](https://stackoverflow.com/questions/42468831/how-to-set-up-rselenium-for-r)
 
 1. Run docker pull selenium/standalone-chrome-debug in terminal (or cmd for windows)
 
@@ -15,7 +15,7 @@ remDr$open()
 
 -v /dev/shm:/dev/shm
 
-[How to connect to rselenium](https://docs.ropensci.org/RSelenium/articles/docker.html)
+# [How to connect to rselenium](https://docs.ropensci.org/RSelenium/articles/docker.html)
 
 https://www.tightvnc.com/download.php
 
